@@ -11,6 +11,11 @@
         public ulong ProductId { get; set; }
 
         /// <summary>
+        /// Продукт
+        /// </summary>
+        public Product Product { get; set; }
+
+        /// <summary>
         /// Количество купленного продукта
         /// </summary>
         public uint  ProductQuantity  { get; set; }
@@ -24,6 +29,11 @@
         /// Сума продажу
         /// </summary>
         public decimal ProductIdAmount  => ProductIdAmount*ProductPrice;
+
+        /// <summary>
+        /// На какой точке продажа
+        /// </summary>
+        public ulong SalesPoinId { get; set; }
     
     }
 }

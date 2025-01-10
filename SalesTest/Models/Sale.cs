@@ -21,9 +21,19 @@
         public ulong SalesPointId { get; set; }
 
         /// <summary>
+        /// Точка продаж
+        /// </summary>
+        public SalesPoint SalesPoint { get; set; }
+
+        /// <summary>
         /// Покупатель, если известен
         /// </summary>
         public ulong? BuyerId { get; set; }
+
+        /// <summary>
+        /// Покупатель, если известен
+        /// </summary>
+        public Buyer? Buyer { get; set; }
 
         /// <summary>
         /// Детели продажи
