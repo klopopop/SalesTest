@@ -16,5 +16,8 @@
         /// Штрих-код
         /// </summary>
         public string BarQode { get; set; }
+
+
+        public IEnumerable<ProvidedProducts>? ProvidedProducts { get; set; }
     }
 }

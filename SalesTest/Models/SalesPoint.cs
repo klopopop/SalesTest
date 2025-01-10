@@ -18,6 +18,6 @@
         /// <summary>
         /// Доступные товары
         /// </summary>
-        public ProvidedProducts? ProvidedProducts { get; set; }
+        public IEnumerable<ProvidedProducts>? ProvidedProducts { get; set; }
     }
 }
